@@ -1,0 +1,94 @@
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* transition: all 12s; */
+    transition-duration: 3s;
+}
+
+body:hover{
+    position: relative;
+    transition-duration: 3s;
+    animation-name: ajay;
+    animation-duration: 20s;
+    
+}
+
+@keyframes ajay {
+    0%{
+        background-image: url("./perfume.webp");
+        opacity: 0;
+    }
+    25%{
+        background-image: url("./perfume.webp");
+        opacity: 0.25;
+    }
+    50%{
+        background-image: url("./perfume.webp");
+        opacity: 0.5;
+    }
+    75%{
+        background-image: url("./perfume.webp");
+        opacity: 0.75;
+    }
+    100%{
+        background-image: url("./perfume.webp");
+    }
+    
+}
+
+.container{
+    display:flex;
+    height: 60px;
+    border:0px solid rgb(237, 223, 233);
+    border-radius: 10px;
+    box-shadow: 3px 3px 11px rgb(186, 5, 5);
+    background-color: #5d1717;
+    position:sticky;
+    margin-top: -5px;
+    margin-left: -5px;
+}
+
+.list{
+    display:flex;
+    gap: 10px 10px;
+    justify-content: center;
+    align-items: center;
+}
+.item
+{
+    list-style: none;
+}
+
+.item a{
+    
+    width: 80px;
+    height:25px;
+    border:0px solid rgb(152, 163, 152);
+    margin: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    text-decoration: none;
+    color:beige;
+
+}
+
+
+.item:hover a {
+    background-color: rgb(50, 2, 14);
+    color:rgb(150, 190, 55);
+    text-transform: capitalize;
+    border: 2px yellowgreen solid;
+    box-shadow: 3px 3px 1px yellow;
+}
+
+.head1
+{
+    color:white;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Dancing Script", cursive;
+}
+
