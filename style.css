@@ -1,0 +1,38 @@
+.container
+{
+    height: 500px;
+    width: 500px;
+    border:10px solid black;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color: blue;
+   
+}
+
+.element
+{
+    height: 300px;
+    width: 300px;
+    border:10px solid black;
+    /* align-self:center; */
+    /* align-items:center; */
+    transition-duration: 5s;
+   
+}
+
+
+
+.container:hover .element
+{
+    transform:skew(20deg) rotate(180deg);
+    transition-duration: 5s;
+    background-color: greenyellow;
+}
+
+
+.element:hover{
+    transition-duration: 20s;
+    background-color: aquamarine;
+    transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+}
